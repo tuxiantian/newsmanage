@@ -1,0 +1,1 @@
+这是一个使用springmvc、Maven、dbutils技术的具有新闻的增删改查功能的示例项目。

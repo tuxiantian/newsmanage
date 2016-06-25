@@ -1,0 +1,2 @@
+DRIVER=com.mysql.jdbc.Driver
+MySqlUrl=jdbc:mysql://localhost:3306/news_manage?user=root&password=root&useUnicode=true&characterEncoding=utf8
