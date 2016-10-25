@@ -6,6 +6,10 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>springmvc_newsmanage</name>
 	<url>http://maven.apache.org</url>
+	<properties>
+		<org.apache.spring.version>4.1.5.RELEASE</org.apache.spring.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
 	<packaging>war</packaging>
 	<dependencies>
 		<dependency>
@@ -17,43 +21,43 @@
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-beans</artifactId>
-			<version>4.1.5.RELEASE</version>
+			<version>${org.apache.spring.version}</version>
 			<scope>compile</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-aop</artifactId>
-			<version>4.1.5.RELEASE</version>
+			<version>${org.apache.spring.version}</version>
 			<scope>compile</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-context</artifactId>
-			<version>4.1.5.RELEASE</version>
+			<version>${org.apache.spring.version}</version>
 			<scope>compile</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-core</artifactId>
-			<version>4.1.5.RELEASE</version>
+			<version>${org.apache.spring.version}</version>
 			<scope>compile</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-expression</artifactId>
-			<version>4.1.5.RELEASE</version>
+			<version>${org.apache.spring.version}</version>
 			<scope>compile</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-web</artifactId>
-			<version>4.1.5.RELEASE</version>
+			<version>${org.apache.spring.version}</version>
 			<scope>compile</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-webmvc</artifactId>
-			<version>4.1.5.RELEASE</version>
+			<version>${org.apache.spring.version}</version>
 			<scope>compile</scope>
 		</dependency>
 		<dependency>
@@ -202,10 +206,5 @@
 		</plugins>
 
 	</build>
-	<properties>
-		<project.build.sourceEncoding>
-			UTF-8
-		</project.build.sourceEncoding>
-	</properties>
 
 </project>
